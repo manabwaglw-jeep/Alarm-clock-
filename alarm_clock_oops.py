@@ -20,7 +20,7 @@ class Clock(alarm):
         self.soundfile="alarm.mp3"
         self.is_running=True
         self.end = None
-        
+       
     def alarm_clock(self):
         while self.is_running:
             current_time=self.get_current_time()
